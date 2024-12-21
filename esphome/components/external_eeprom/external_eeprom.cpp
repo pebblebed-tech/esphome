@@ -41,7 +41,7 @@ bool ExtEepromComponent::is_connected(uint8_t i2c_address) {
 }
 
 /// @brief Reads a byte from a given location
-/// @param memaddr is the location to read
+/// @param memaddr is the location to read from
 /// @return the byte read from device
 uint8_t ExtEepromComponent::read8(uint32_t memaddr) {
   uint8_t temp_byte;
