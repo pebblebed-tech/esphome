@@ -10,7 +10,7 @@ void ExtEepromComponent::setup() {
     ESP_LOGE(TAG, "Device on address 0x%x not found!", this->address_);
     this->mark_failed();
   } else {
-    ESP_LOGCONFIG(TAG, "Memory detected!");
+    ESP_LOGCONFIG(TAG, "Memory detected");
   }
 }
 
